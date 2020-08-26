@@ -8,9 +8,9 @@ pipeline{
         stage("sample code"){
             steps{
                 echo "hello "
-                sleep(5)
+               // sleep(5)
                 echo "hi"
-                sleep(5)
+               // sleep(5)
                 echo "this is sample pipeline script"
             }
         }
