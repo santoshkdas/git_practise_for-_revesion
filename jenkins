@@ -1,0 +1,19 @@
+pipeline{
+
+agent any
+
+stages{
+stage("just checking using jenkins file"){
+
+
+steps{
+
+	echo "this is a sample code"
+
+}
+
+}
+
+}
+
+}
